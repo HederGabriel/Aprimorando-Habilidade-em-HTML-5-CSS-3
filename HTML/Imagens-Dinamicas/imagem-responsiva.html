@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplas imagens</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir essa pagina em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <!--A ordem dos source importa-->
+        <source media="(max-width: 750px)" srcset="img/Pequeno.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="img/medio.png" type="image/png">
+        <img src="img/grande.png" alt="Foto grande de teste">
+    </picture>
+</body>
+</html>
