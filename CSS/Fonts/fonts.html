@@ -5,8 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes em Css</title>
     <style>
+        /*Importando Fonte do google font*/
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
         body {
-            font-family: Arial, Helvetica, sans-serif;
+            /* Completo
+
+            Fonte
+            font-family: 'Work Sans';
+
+            Peso da Fonte
+            font-weight: normal;
+
+            Estilo da Fonte
+            font-style: normal;
+
+            Tamanho da Fonte
+            font-size:  1em;
+            */
             /*
             Medidas Absolutas
             cm, mm, in, px, pt, pc
@@ -16,7 +31,10 @@
 
             1em = 16px
             */
-            font-size:  1em;
+
+            /*Shorthand Fonte
+            font-style -> font-weight -> font-size -> font-family*/
+            font: italic bold 1em 'Work Sans';
         }
     </style>
 </head>
